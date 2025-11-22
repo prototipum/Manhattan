@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html {
+font-size: 16px;
+}
 * {
 box-sizing: border-box;
 margin: 0;
@@ -8,7 +11,6 @@ body {
 font-family: "Raleway", sans-serif;
 color: #FEFEFE;
 background-color: #1F2731;
-font-size: 16px;
 /* padding: 0 55px; */
 margin: 0;
 }
@@ -90,7 +92,7 @@ padding-bottom: 18px;
 }
 .text {
 color: inherit;
-line-height: 1.5;
+line-height: 24px;
 font-family: "Raleway", sans-serif;
 text-transform: uppercase;
 }
