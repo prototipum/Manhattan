@@ -56,6 +56,25 @@ a:hover {
 text-decoration: underline;
 color: #F46157;
 }
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem;
+}
+.holder_logo {
+display: flex;
+align-items: flex-end;
+gap: 9px;
+}
+a[href="#footer"]:hover {
+color: inherit;
+}
+.logo_title {
+font-size: 2rem;
+font-weight: 700;
+line-height: 1.2;
+}
 .banner {
 color: inherit;
 font-weight: inherit;
@@ -151,6 +170,8 @@ flex-direction: column;
 .footer {
 color: #FFF;
 padding: 58px 2rem 64px 2rem;
+background: url("/img_src/background/1025.svg") no-repeat right center;
+background-color: #191F27;
 }
 .h2_footer {
 font-family: "Anton", sans-serif;
@@ -182,7 +203,18 @@ font-family: "Raleway", sans-serif;
 color: #FEFEFE;
 padding-top: 28px;
 }
+@media screen and (max-width: 575px) {
+    .html {
+    font-size: 14px;
+    }
+    .sales {
+    display: none;
+    }
+}
 @media screen and (max-width: 768px) {
+    .html {
+    font-size: 14.8px;
+    }
     .main {
     grid-template-columns: 1fr;
     padding: 0 16px;
@@ -212,9 +244,9 @@ padding-top: 28px;
 }
 @media screen and (min-width: 1920px) {
     .main {
-    min-width: 1820px;
+    min-width: 100vh;
     }
     .banner {
-    min-width: 100%;
+    min-width: 100vh;
     }
 }
