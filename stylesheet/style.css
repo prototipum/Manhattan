@@ -80,7 +80,7 @@ color: inherit;
 font-weight: inherit;
 font-family: "Oswald", "Raleway", sans-serif;
 background-size: cover;
-background: url('/img_src/background/manhanttan.png') no-repeat center center;
+background: url('img_src/background/manhanttan.png') no-repeat center center;
 height: 787px;
 padding: 78px 77px;
 }
